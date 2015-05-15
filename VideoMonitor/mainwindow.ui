@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>289</width>
+    <height>207</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>华文楷体</family>
+    <pointsize>12</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>三维重建</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/new/file/camera1.png</normalon>
+   </iconset>
+  </property>
+  <widget class="QTabWidget" name="centralWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <action name="Managerview">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/new/file/set.png</normaloff>
+     <normalon>set.png</normalon>:/new/file/set.png</iconset>
+   </property>
+   <property name="text">
+    <string>设备视图</string>
+   </property>
+   <property name="toolTip">
+    <string>设备视图</string>
+   </property>
+  </action>
+  <action name="action_aboutProgram">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/new/file/set.png</normaloff>
+     <normalon>:/new/prefix1/Resources/set.png</normalon>:/new/file/set.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于官网</string>
+   </property>
+  </action>
+  <action name="Preview">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/new/file/display.png</normaloff>:/new/file/display.png</iconset>
+   </property>
+   <property name="text">
+    <string>预览视图</string>
+   </property>
+   <property name="toolTip">
+    <string>预览试图</string>
+   </property>
+  </action>
+  <action name="Mapview">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/new/file/map.png</normaloff>:/new/file/map.png</iconset>
+   </property>
+   <property name="text">
+    <string>地图视图</string>
+   </property>
+   <property name="toolTip">
+    <string>地图视图</string>
+   </property>
+  </action>
+  <action name="action_fourview">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/new/file/2x2.png</normaloff>:/new/file/2x2.png</iconset>
+   </property>
+   <property name="text">
+    <string>四分屏</string>
+   </property>
+   <property name="toolTip">
+    <string>四分屏</string>
+   </property>
+  </action>
+  <action name="action_nineview">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/new/file/3x3.png</normaloff>:/new/file/3x3.png</iconset>
+   </property>
+   <property name="text">
+    <string>九分屏</string>
+   </property>
+   <property name="toolTip">
+    <string>九分屏</string>
+   </property>
+  </action>
+  <action name="action_sixview">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/new/file/6.png</normaloff>:/new/file/6.png</iconset>
+   </property>
+   <property name="text">
+    <string>六分屏</string>
+   </property>
+   <property name="toolTip">
+    <string>六分屏</string>
+   </property>
+  </action>
+  <action name="Systemview">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/new/file/computer.png</normaloff>:/new/file/computer.png</iconset>
+   </property>
+   <property name="text">
+    <string>系统配置</string>
+   </property>
+   <property name="toolTip">
+    <string>系统配置</string>
+   </property>
+  </action>
+  <action name="actionAa">
+   <property name="text">
+    <string>用户管理</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>监视点</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>预览界面</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>设备管理界面</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>系统设置界面</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>事件记录表</string>
+   </property>
+  </action>
+  <action name="OpenFile">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
