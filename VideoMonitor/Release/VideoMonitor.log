@@ -1,29 +1,9 @@
-﻿生成启动时间为 2015/1/26 12:04:25。
-     1>项目“D:\vsproject\VideoMonitor\VideoMonitor\VideoMonitor.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“Release\VideoMonitor.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-       CustomBuild:
-         所有输出均为最新。
-       ClCompile:
-         所有输出均为最新。
-         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.8.1\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.1\include\QtCore /IC:\Qt\4.8.1\include\QtGui /I.\ /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt USBCamera.cpp
-         USBCamera.cpp
-       Link:
-         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vsproject\VideoMonitor\\VideoMonitor.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.1\lib qtmain.lib QtCore4.lib QtGui4.lib opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_objdetect246.lib opencv_video246.lib opencv_gpu246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VideoMonitor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\vsproject\VideoMonitor\VideoMonitor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vsproject\VideoMonitor\VideoMonitor.lib" /MACHINE:X86 Release\qrc_videomonitor.obj
-         Release\moc_mainwindow.obj
-         Release\moc_preview.obj
-         Release\main.obj
-         Release\mainwindow.obj
-         Release\preview.obj
-         Release\USBCamera.obj
-         VideoMonitor.vcxproj -> D:\vsproject\VideoMonitor\VideoMonitor.exe
-       Manifest:
-         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\vsproject\VideoMonitor\\VideoMonitor.exe;#1" /manifest Release\VideoMonitor.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         正在删除文件“Release\VideoMonitor.unsuccessfulbuild”。
-         正在对“Release\VideoMonitor.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\vsproject\VideoMonitor\VideoMonitor\VideoMonitor.vcxproj”(build 个目标)的操作。
+﻿生成启动时间为 2015/5/15 13:25:02。
+     1>项目“D:\vsproject\VideoMonitor\VideoMonitor\VideoMonitor.vcxproj”在节点 2 上(clean 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\VideoMonitor.lastbuildstate”。
+     1>已完成生成项目“D:\vsproject\VideoMonitor\VideoMonitor\VideoMonitor.vcxproj”(clean 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.95
+已用时间 00:00:00.22
